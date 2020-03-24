@@ -13,7 +13,7 @@ n2=0;
 n3=0;
 n2=prompt("Ingrese un numero: ");
 n3=prompt("Ingrese un numero mayor al anterior: ");
-if(n2<=n3){
+if(n2>n3){
 	console.log("___________________________________________________________\n");
 	console.log("Imprimiendo la tabla del: "+n2+"\n");
 	console.log("___________________________________________________________\n");
