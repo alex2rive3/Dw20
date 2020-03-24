@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	background-color:#EAEDED;
 	width: 90%;
@@ -64,4 +65,72 @@ footer pre{
 }
 header,main,footer{
 	margin-top: -20px;
+=======
+body{
+	background-color:#EAEDED;
+	width: 90%;
+	margin: 0 auto;
+	font-family:"Roboto",sans-serif;
+}
+header{
+	background-color:#7B7878;
+	width: 90%;
+	height: 160px;
+	background: linear-gradient(to bottom, #85929E,#D6DBDF);
+}
+header h1{
+	margin-top: -100px;
+	margin-left: 375px;
+	color: #2471A3;
+}
+
+header img{
+	height: 130px;
+    width: 130px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+nav{
+	background-color:#85929E;
+	width: 90%;
+	height: 42px;
+}
+nav ul{
+
+}
+nav ul li{
+	float: left;
+    list-style-type: none;
+    background-color: #FFFFFF;
+    border: 1px solid #7B7878;
+    margin-left:10px;
+    padding: 5px 10px;
+    margin-top: 6px;
+    border-radius: 10px;
+}
+nav ul li a{
+	color:#3b83bd;
+}
+main{
+	background-color:#D7DBDD;
+	width: 90%;
+}
+main h3,p{
+	padding: 5px 20px;
+	text-align: justify;
+}
+footer{
+	background-color:#7B7878;
+	width: 90%;
+	height: 90px;
+	background: linear-gradient(to bottom,#D6DBDF, #85929E);
+}
+footer pre{
+	text-align: center;
+    padding-top: 50px;
+    font-weight: bolder;
+}
+header,main,footer{
+	margin-top: -20px;
+>>>>>>> 6afbd29eb569f59630044c0f604109d72a508450
 }
