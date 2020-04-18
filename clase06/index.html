@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>clase 06</title>
+    <script src="libs\Jquery\jquery-3.5.0.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <script src="libs/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">Datos</a>
+</nav>
+<br>
+<div class="container">
+<div class="card">
+<div claas="card-body">
+<h3 class ="card-title">Formulario</h3>
+<form class="" action="index.html" method="post">
+  <input type="hidden" id="idx" value="">
+    <p>
+      <label for="apellido">Apellido</label> <br>
+      <input type="text" id="apellido" class="form-control" value="">
+    </p>
+    <p>
+      <label for="nombre">Nombre</label><br>
+      <input type="text" id="nombre" class="form-control" value="">
+    </p>
+    <p>
+      <label for="fenac">Fecha de nacimiento</label><br>
+      <input type="date" id="fenac" class="form-control" value="">
+    </p>
+    <button type="button" id="enviar" class="btn btn-primary">Enviar</button>
+</form>
+</div>
+</div>
+<div class="card">
+<br>
+<div claas="card-body">
+<h3 class ="card-title">Tabla</h3>
+<!--Se crea una tabla para contener los datos del formulario-->
+<table class="table"><!--Se le da un borde a la tabla-->
+  <thead class="thead-dark">
+    <tr>
+    <th>id</th>
+    <th>Apellido</th>
+    <th>Nombre</th>
+    <th>Fecha</th>
+    <!--Es una forma de darle un evento a un boton -->
+    <!--colspan es para que el boton ocupe dos columnas-->
+    <th colspan="2"><button type="button" id="nuevo" onclick="limpiarForm()" class="btn btn-success">Nuevo</button></th> <br>
+
+</tr>
+  </thead>
+  <tbody id="datos">
+  </tbody>
+</table>
+</div></div></div>
+<br>ss
+<script src="js/app.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tarea de la Clase 06</title>
+    <script src="libs\Jquery\jquery-3.5.0.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <script src="libs/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+<div class="container">
+    <div class="card">
+      <div class="card-body">
+        salida=salida+<p class="card-header">Alumnos Registrados</p>
+        <span>Apellidos:<span>"+item[0]+"</span></span><br>
+        <span>Nombre:<span>item[1]</span></span><br>
+        <span>Fecha de Nacimiento:<span>item[2]</span></span><br>
+        <span><button type='button' class='editar btnn btn-warning' data-id='"+i+"'>Editar</button><span><button type='button' class='borrar btn btn-danger' data-id='"+i+"'>Borar</button></span></span>
+      </div>
+
+  <div class='card'>
+    <div class='card-body'>
+      <p class='card-header'>
+        <span>"+"Alumno Registrado<br></p>
+          <span> Id: <span>"+i+ "</span></span> <br>
+          <span> Apellidos: <span>" +item[0]+"</span></span><br><span> Nombres: <span>"+ item[1]+"</span></span> <br><span> Fecha de nacimiento: <span>"+item[3]+"</span></span><br><br><button type='button' id='nuevo' onclick='limpiarForm()' class='btn btn-success'>Nuevo</button> <button type='button' class='btEditar  btn btn-warning' data-id='"+i+"'>Editar</button>  <span><button type='button' class='btBorrar btn btn-danger' data-id='"+i+"'>Borrar</button> </span><br></div></div>
+    </div>
+  </div>
+  </body>
+</html>

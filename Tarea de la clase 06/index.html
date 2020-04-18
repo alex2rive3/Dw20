@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> TAREA DE LA CLASE 06</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="libs/Jquery/jquery-3.5.0.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <script src="libs/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Registro de Alumnos</a>
+</nav>
+<br>
+<div class="container">
+<div class="card">
+<div claas="card-body">
+<h3 class ="card-title">Formulario</h3>
+<form class="" action="index.html" method="post">
+  <input type="hidden" id="idx" value="">
+    <p>
+      <label for="apellido">Apellido</label> <br>
+      <input type="text" id="apellido" class="form-control" value="">
+    </p>
+    <p>
+      <label for="nombre">Nombre</label><br>
+      <input type="text" id="nombre" class="form-control" value="">
+    </p>
+    <p>
+      <label for="fenac">Fecha de nacimiento</label><br>
+      <input type="date" id="fenac" class="form-control" value="">
+    </p>
+    <button type="button" id="enviar" class="btn btn-primary">Guardar</button>
+    <button type="button" id="nuevo" onclick="limpiarForm()" class="btn btn-primary">Nuevo</button>
+</form>
+</div>
+</div>
+<main id="datos">
+</main>
+</div></div></div>
+<br>
+<script src="js/app.js" charset="utf-8"></script>
+  </body>
+</html>
